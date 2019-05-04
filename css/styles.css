@@ -115,6 +115,9 @@ html {
     .card__footer a:nth-of-type(3) {
       flex: 1 0 100%; }
 
+.arrow-container {
+  padding: 12px; }
+
 svg {
   fill: tomato;
   margin: 24px 0; }

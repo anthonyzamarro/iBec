@@ -1,11 +1,10 @@
-const arrow = document.querySelector('svg'),
+const arrow = document.querySelector('.arrow-container'),
 content = document.querySelector('.card__content'),
 contentContainer = document.querySelector('.card__content-container');
 
 if (window.innerWidth <= 618) {
-	content.style.display = 'none';
 	document.addEventListener('click', e => {
-	if (e.target.id == "arrow") {
+	if (e.target.id == "arrow-container" || e.target.id == "arrow") {
 		if (content.style.display === 'none') {
 			content.style.display = 'block';
 			arrow.classList.add('up');
